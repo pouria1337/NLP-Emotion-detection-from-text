@@ -4,13 +4,13 @@ In this approach, I use a deep learning language model which is pre-trained and 
 
 1) Clean ISEAR dataset, NRC Lexicon according to target emotions
 2) Deploy TF-IDF weighing on Affect Data
-iii. Extract top TF-IDF words from NRC Lexicon and model each emotion accordingly
-iiii. Load off-the-shelf fine-tuned language model & calculate semantic similarity of each memory and modeled emotions
-iiiii. Feed created similarities to ML classifiers, train, test and report accuracy metrics
+3) Extract top TF-IDF words from NRC Lexicon and model each emotion accordingly
+4) Load off-the-shelf fine-tuned language model & calculate semantic similarity of each memory and modeled emotions
+5) Feed created similarities to ML classifiers, train, test and report accuracy metrics
 
 
-Random_Forest	SVM	G-Boosted_Tree
-Accuracy	0.700	0.721	0.703
-F1-score	0.698	0.718	0.700
-Precision	0.702	0.723	0.702
-Recall	0.699	0.720	0.702
+Random_Forest	SVM	G-Boosted_Tree <br>
+Accuracy	0.700	0.721	0.703 <br>
+F1-score	0.698	0.718	0.700 <br>
+Precision	0.702	0.723	0.702 <br>
+Recall	0.699	0.720	0.702 <br>
