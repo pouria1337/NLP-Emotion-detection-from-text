@@ -16,8 +16,3 @@ In this approach, I use a deep learning language model which is pre-trained and 
 | Precision | 0.702         | 0.723 | 0.702          |
 | Recall    | 0.699         | 0.720 | 0.702          |
 
-Random_Forest	SVM	G-Boosted_Tree <br>
-Accuracy	0.700	0.721	0.703 <br>
-F1-score	0.698	0.718	0.700 <br>
-Precision	0.702	0.723	0.702 <br>
-Recall	0.699	0.720	0.702 <br>
