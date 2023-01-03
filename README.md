@@ -7,7 +7,7 @@ In this approach, I used a deep learning language model in combination with Info
 
 |           | Random Forest | SVM   | G-Boosted Tree |
 |-----------|---------------|-------|----------------|
-| Accuracy  | 0.7           | 0.723 | 0.703          |
+| Accuracy  | 0.7           | 0.721 | 0.703          |
 | F1-score  | 0.698         | 0.718 | 0.7            |
 | Precision | 0.702         | 0.723 | 0.702          |
 | Recall    | 0.699         | 0.720 | 0.702          |
