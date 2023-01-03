@@ -2,7 +2,7 @@
 ## Automatic model to extract emotions from English texts via Deep Learning
 This was my Master's thesis. 
 
-In this approach, I used a deep learning language model combined with IR techniques to detect emotions from 5428 labeled memories of the 7666 memories in the ISEAR dataset. Below, I have provided the metrics I was able to achieve in detecting emotions from these memories using my method.
+In this approach, I used a deep learning language model in combination with Information Retrieval methods to detect emotions from 5428 labeled memories of the 7666 in the ISEAR dataset. Below, I have provided the metrics I was able to achieve in detecting five emotions.
 
 
 |           | Random Forest | SVM   | G-Boosted Tree |
