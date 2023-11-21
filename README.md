@@ -1,8 +1,8 @@
 # NLP-Emotion-detection-from-text
 ## Automatic model to extract emotions from English texts via Deep Learning
-This was my Master's thesis. 
+This was my Master's thesis and also my final project for completing the Harvard CS50 course. 
 
-In this approach, I used a deep learning language model in combination with Information Retrieval methods to detect emotions from 5428 labeled memories of the 7666 in the ISEAR dataset. Below, I have provided the metrics I was able to achieve in detecting five emotions.
+In this approach, I used a deep learning language model in combination with Information Retrieval methods to detect emotions from 5477 labeled memories of the 7666 in the ISEAR dataset. Below, I have provided the metrics I was able to achieve in detecting five emotions.
 
 
 |           | Random Forest | SVM   | G-Boosted Tree |
