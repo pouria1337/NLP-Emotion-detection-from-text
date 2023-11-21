@@ -4,6 +4,7 @@ This was my Master's thesis and also my final project for completing the Harvard
 
 In this approach, I used a deep learning language model in combination with Information Retrieval methods to detect emotions from 5477 labeled memories of the 7666 in the ISEAR dataset. Below, I have provided the metrics I was able to achieve in detecting five emotions.
 
+The following matrics may differ from the actual code since I omitted TF-IDF filtering from the code. I did, however, do TF-IDF filtering for my thesis.
 
 |           | Random Forest | SVM   | G-Boosted Tree |
 |-----------|---------------|-------|----------------|
