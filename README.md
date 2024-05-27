@@ -1,11 +1,14 @@
 # NLP-Emotion-detection-from-text
-## Automatic model to extract emotions from English texts via Deep Learning
-This was my Master's thesis and also my final project for completing the Harvard CS50 course. 
+## Overview
+This repository contains the implementation of an automatic model to extract emotions from English texts using Deep Learning. This project was developed as part of my Master's thesis and served as my final project for completing the Harvard CS50 course. 
 
-In this approach, I used a deep learning language model in combination with Information Retrieval methods to detect emotions from 5477 labeled memories of the 7666 in the ISEAR dataset. Below, I have provided the metrics I was able to achieve in detecting five emotions.
+## Approach
+The model employs a combination of a deep learning language model and Information Retrieval methods. It was trained and tested on 5477 labeled memories out of the 7666 available in the ISEAR dataset, aiming to detect five distinct emotions.
 
-The following matrics may differ from the actual code since I omitted TF-IDF filtering from the code. I did, however, do TF-IDF filtering for my thesis.
+## Metrics
+The performance metrics achieved by the model are detailed below. Please note that these metrics may differ from the actual code since TF-IDF filtering was omitted from the code but was included in the thesis analysis.
 
+### Table 1: Overall Accuracy
 |           | Random Forest | SVM   | G-Boosted Tree |
 |-----------|---------------|-------|----------------|
 | Accuracy  | 0.7           | 0.721 | 0.703          |
@@ -13,7 +16,7 @@ The following matrics may differ from the actual code since I omitted TF-IDF fil
 | Precision | 0.702         | 0.723 | 0.702          |
 | Recall    | 0.699         | 0.720 | 0.702          |
 
-
+### Table 2: Accuracy per Emotion
 |     Emotion    |     Evaluation metrics                  |     Ranking                   | SVM                           | RF                            | GBT                           |
 |----------------|-----------------------------------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
 |     Anger      |     F-score     <br>Precision     <br>Recall    |     0.56     <br>0.59     <br>0.53    |     0.63     <br>0.60     <br>0.67    |     0.60     <br>0.59     <br>0.62    |     0.60     <br>0.60     <br>0.61    |
@@ -22,13 +25,13 @@ The following matrics may differ from the actual code since I omitted TF-IDF fil
 |     Joy        |     F-score     <br>Precision     <br>Recall    |     0.87     <br>0.86     <br>0.88    |     0.88     <br>0.86     <br>0.91    |     0.87     <br>0.85     <br>0.89    |     0.87     <br>0.85     <br>0.90    |
 |     Sadness    |     F-score     <br>Precision     <br>Recall    |     0.63     <br>0.50     <br>0.87    |     0.73     <br>0.74     <br>0.72    |     0.70     <br>0.72     <br>0.69    |     0.72     <br>0.71     <br>0.72    |
 
-## I used the following datasets 
-* ISEAR Dataset [Link](https://www.unige.ch/cisa/research/materials-and-online-research/research-material/)
+## Datasets Used
 
-  This dataset was in .mdb format which had to be opened by Microsoft Access. I converted it to .csv format and used Python and the Pandas library to preprocess them, remove unwanted columns, and remove rows with no significance.
-* NRC Lexicon [Link](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
+### ISEAR Dataset
+Originally in .mdb format, this dataset was converted to .xlsx for better accessibility. Using Python and the Pandas library, the data was preprocessed to remove unwanted columns and insignificant rows. [Link](https://www.unige.ch/cisa/research/materials-and-online-research/research-material/)
 
-  This dataset was in .txt format with a binary classification for words and their relation to emotions. As the above dataset, I utilized Python and the Pandas library to connect words with corresponding emotions and created respective dataframes.
-* Affect Data [Link](http://people.rc.rit.edu/~coagla/affectdata/index.html)
+### NRC Lexicon
+This .txt formatted dataset provides a binary classification for words and their relation to emotions. It was processed to connect words with corresponding emotions and to create respective dataframes. [Link](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
 
-  This dataset was also in .txt format in an arbitrary written style. Again, with the power of Python and Pandas I reshaped the data and corresponding emotions into managable dataframes. As for pre-processesing, I removed dialogues that were too vague for representing emotions. 
+### Affect Data
+Also in .txt format, this dataset required reshaping to align the data and corresponding emotions into manageable dataframes. Preprocessing involved the removal of dialogues too vague for representing emotions. [Link](http://people.rc.rit.edu/~coagla/affectdata/index.html)
