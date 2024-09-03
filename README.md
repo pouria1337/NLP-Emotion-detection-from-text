@@ -48,5 +48,5 @@ Originally in .mdb format, this dataset was converted to .xlsx for better access
 ### NRC Lexicon
 This .txt formatted dataset provides a binary classification for words and their relation to emotions. It was processed to connect words with corresponding emotions and to create respective dataframes. [Link](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
 
-### Affect Data
+### Affect Data (Alm)
 Also in .txt format, this dataset required reshaping to align the data and corresponding emotions into manageable dataframes. Preprocessing involved the removal of dialogues too vague for representing emotions. [Link](http://people.rc.rit.edu/~coagla/affectdata/index.html)
