@@ -3,7 +3,7 @@
 This repository contains the implementation of an automatic model to extract emotions from English texts from 5470 memories using Deep Learning. This project was developed as part of my Master's thesis.
 
 ## Approach
-The model employs a combination of a deep learning language model and Information Retrieval methods. It was trained and tested on 5477 labeled memories out of the 7666 available in the ISEAR dataset, aiming to detect five distinct emotions.
+The model employs a combination of a deep learning language model and Information Retrieval methods. It was trained and tested on 5470 labeled memories out of the 7666 available in the ISEAR dataset, aiming to detect five distinct emotions.
 
 ## Metrics
 The performance metrics achieved by the model are detailed below. Please note that these metrics may differ from the actual code since TF-IDF filtering was omitted from the code but was included in the thesis analysis.
