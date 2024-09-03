@@ -1,6 +1,6 @@
 # NLP-Emotion-detection-from-text
 ## Overview
-This repository contains the implementation of an automatic model to extract emotions from English texts using Deep Learning. This project was developed as part of my Master's thesis and served as my final project for completing the Harvard CS50 course. 
+This repository contains the implementation of an automatic model to extract emotions from English texts from 5470 memories using Deep Learning. This project was developed as part of my Master's thesis.
 
 ## Approach
 The model employs a combination of a deep learning language model and Information Retrieval methods. It was trained and tested on 5477 labeled memories out of the 7666 available in the ISEAR dataset, aiming to detect five distinct emotions.
@@ -9,12 +9,12 @@ The model employs a combination of a deep learning language model and Informatio
 The performance metrics achieved by the model are detailed below. Please note that these metrics may differ from the actual code since TF-IDF filtering was omitted from the code but was included in the thesis analysis.
 
 ### Table 1: Overall Accuracy
-|           | Random Forest | SVM   | G-Boosted Tree |
-|-----------|---------------|-------|----------------|
-| Accuracy  | 0.7           | 0.721 | 0.703          |
-| F1-score  | 0.698         | 0.718 | 0.7            |
-| Precision | 0.702         | 0.723 | 0.702          |
-| Recall    | 0.699         | 0.720 | 0.702          |
+|           | Random Forest | SVM   | G-Boosted Tree | Logistic_regression|
+|-----------|---------------|-------|----------------|--------------------|
+| Accuracy  | 0.695         | 0.721 | 0.695          | 0.673              |
+| F1-score  | 0.694         | 0.719 | 0.693          | 0.669              |
+| Precision | 0.696         | 0.723 | 0.695          | 0.671              |
+| Recall    | 0.695         | 0.721 | 0.695          | 0.673              |
 
 ### Table 2: Accuracy per Emotion
 |     Emotion    |     Evaluation metrics                  |     Ranking                   | SVM                           | RF                            | GBT                           |
